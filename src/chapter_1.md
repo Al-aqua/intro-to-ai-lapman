@@ -42,7 +42,10 @@ To start using Prolog, you need to install a Prolog interpreter. The most popula
 - **SWI-Prolog** (recommended for beginners): Free and widely used.
 - **GNU Prolog**: Another free option.
 
-### Installation Steps (SWI-Prolog):
+<div style="display: flex; justify-content: start; align-items: end;">
+<h3>Installation Steps (SWI-Prolog): </h3>
+  <img src='./assets/swipl.png'  height='64'>
+</div>
 
 1. **Download SWI-Prolog**:
 
@@ -160,6 +163,7 @@ parent(john, mary).
 parent(mary, alice).
 parent(mary, bob).
 parent(bob, charlie).
+parent(alice, sarah).
 
 % Rules
 grandparent(X, Y) :- parent(X, Z), parent(Z, Y).
@@ -210,7 +214,7 @@ Now that your program is loaded, you can ask Prolog questions about the relation
 
    ```
    X = alice ;
-   X = charlie.
+   X = bob.
    ```
 
 3. Who are Mary’s children?
@@ -226,9 +230,9 @@ Now that your program is loaded, you can ask Prolog questions about the relation
    X = bob.
    ```
 
-4. Is Mary a grandparent of Charlie?
+4. Is Mary a grandparent of John?
    ```prolog
-   ?- grandparent(mary, charlie).
+   ?- grandparent(mary, john).
    ```
    Prolog will respond:
    ```
@@ -246,7 +250,7 @@ Let’s solve a reasoning problem using the same program.
 Imagine the following family tree:
 
 ```
-John → Mary → Alice
+John → Mary → Alice → Sarah
 John → Mary → Bob → Charlie
 ```
 
@@ -282,7 +286,7 @@ Using the facts and rules in your program, you can answer questions like:
    ```
    Prolog will respond:
    ```
-   X = alice.
+   X = sarah.
    ```
 
 ---
@@ -294,7 +298,10 @@ Try these exercises to practice Prolog:
 1. Add a new fact: `parent(alice, dave).` Then ask:
 
    - Who are Alice’s children?
-   - Who are John’s great-grandchildren?
+
+   ```
+   ____________________________________________________________________________
+   ```
 
 2. Write a rule for "ancestor" (someone who is a parent, grandparent, great-grandparent, etc.):
 
@@ -307,20 +314,24 @@ Try these exercises to practice Prolog:
 
    - Who are John’s descendants?
 
+   ```
+   ____________________________________________________________________________
+   ```
+
 3. Write a rule for "uncle" (a parent’s sibling):
+
    ```prolog
    uncle(X, Y) :- sibling(X, Z), parent(Z, Y).
    ```
+
    Then ask:
+
    - Who is Charlie’s uncle?
+
+   ```
+   ____________________________________________________________________________
+   ```
 
 ---
 
-## 1.6 Summary
-
-In this chapter, you learned:
-
-- What Prolog is and why it’s used in AI.
-- How to set up and run Prolog.
-- How to write simple Prolog programs using facts, rules, and queries.
-- How to solve basic reasoning problems using Prolog.
+> See you next week!
