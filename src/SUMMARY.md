@@ -9,3 +9,4 @@
 - [Chapter 5 - Python Data Structures and Functions](./chapter_5.md)
 - [Chapter 6 - Object-Oriented Programming in Python](./chapter_6.md)
 - [Chapter 7 - Uninformed Search Techniques & Problem Formulation](./chapter_7.md)
+- [Chapter 8 - Heuristic Search Techniques & Optimization](./chapter_8.md)
