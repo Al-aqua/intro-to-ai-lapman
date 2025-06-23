@@ -511,7 +511,7 @@ class WaterJugProblem(SearchProblem):
 
 # Test your implementation
 water_jug = WaterJugProblem(jug1_capacity=4, jug2_capacity=3, goal_amount=2)
-solution = breadth_first_search(water_jug)
+solution = depth_first_search(water_jug)
 
 if solution:
     print("Solution found!")
