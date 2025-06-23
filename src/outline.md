@@ -62,15 +62,28 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 
 ### Part 3: AI Techniques in Python (Chapters 7–10)
 
-**Chapter 7: Uninformed Search Techniques & Problem Formulation**
+**Chapter 7: Problem Formulation & Uninformed Search Basics**
 
-- What is a search problem? States, actions, goal tests, path costs.
-- Representing problems for search in Python.
-- Depth-First Search (DFS) and its characteristics.
-- Breadth-First Search (BFS) and its characteristics.
-- Practical exercises: solving mazes, water jug problem.
+- What is a search problem? States, actions, goal tests, path costs
+- Representing problems for search in Python
+- Depth-First Search (DFS) implementation and analysis
+- Practical exercises:
+  - Maze navigation with DFS
+  - Water Jug problem formulation (partial)
+  - Simple maze variations to test DFS behavior
 
-**Chapter 8: Heuristic Search Techniques & Optimization**
+**Chapter 8: Breadth-First Search & Search Algorithm Analysis**
+
+- Breadth-First Search (BFS) implementation
+- Completeness and optimality in search algorithms
+- DFS vs BFS comparison:
+  - Side-by-side characteristics table
+  - When to use each algorithm
+- Practical exercises:
+  - 8-Puzzle Problem
+  - Algorithm comparison on varying maze sizes
+
+**Chapter 9: Heuristic Search Techniques & Optimization**
 
 - Introduction to heuristic functions: what they are and why they are useful.
 - Properties of heuristics: Admissibility and Consistency.
@@ -80,22 +93,3 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - A\* Search algorithm: combining cost and heuristic.
 - Python implementation of heuristic search techniques.
 - Practical exercises: advanced pathfinding (e.g., city shortest paths), optimization problems (e.g., 8-puzzle).
-
-**Chapter 9: Constraint Satisfaction Problems (CSPs)**
-
-- What are CSPs? Variables, domains, constraints. Examples and applications (scheduling, timetabling).
-- Basic Backtracking for CSPs.
-- Improving efficiency: Forward checking.
-- Constraint propagation: Arc Consistency (AC-3 algorithm).
-- Python implementation of CSP solvers.
-- Practical exercises: solving Sudoku, N-Queens revisited, cryptarithmetic puzzles.
-
-**Chapter 10: Game Playing and Adversarial Search**
-
-- Introduction to game theory and AI in two-player, zero-sum games.
-- Game trees and states.
-- Minimax algorithm: finding optimal moves in perfect-information games.
-- Alpha-beta pruning: improving Minimax efficiency.
-- Designing effective evaluation functions (heuristics for games).
-- Python implementation of game-playing strategies.
-- Practical exercises: building AI for simple games (e.g., Tic-Tac-Toe, Connect Four, simple Othello).
