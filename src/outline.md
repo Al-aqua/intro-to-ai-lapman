@@ -68,10 +68,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Representing problems for search in Python.
 - Depth-First Search (DFS) and its characteristics.
 - Breadth-First Search (BFS) and its characteristics.
-- Uniform Cost Search (UCS).
-- Iterative Deepening Search.
-- Python implementation of search algorithms (tree vs. graph search).
-- Practical exercises: solving mazes, graph traversal problems, water jug problem.
+- Practical exercises: solving mazes, water jug problem.
 
 **Chapter 8: Heuristic Search Techniques & Optimization**
 
