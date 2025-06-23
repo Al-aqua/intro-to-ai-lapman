@@ -667,7 +667,7 @@ def demonstrate_a_star_optimality():
         maze_problem.print_maze(solution)
 
         # Compare with BFS (also optimal for unweighted graphs)
-        from chapter7 import breadth_first_search
+        from chapter8 import breadth_first_search
         bfs_solution = breadth_first_search(maze_problem)
         print(f"BFS solution length: {len(bfs_solution) - 1}")
         print(f"Both found optimal solution: {len(solution) == len(bfs_solution)}")
