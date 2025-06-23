@@ -8,5 +8,6 @@
 - [Chapter 4 - Getting Started with Python](./chapter_4.md)
 - [Chapter 5 - Python Data Structures and Functions](./chapter_5.md)
 - [Chapter 6 - Object-Oriented Programming in Python](./chapter_6.md)
-- [Chapter 7 - Uninformed Search Techniques & Problem Formulation](./chapter_7.md)
-- [Chapter 8 - Heuristic Search Techniques & Optimization](./chapter_8.md)
+- [Chapter 7 - Problem Formulation & Uninformed Search Basics](./chapter_7.md)
+- [Chapter 8 - Breadth-First Search & Search Algorithm Analysis](./chapter_8.md)
+- [Chapter 9 - Heuristic Search Techniques & Optimization](./chapter_9.md)
