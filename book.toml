@@ -1,8 +1,9 @@
 [book]
-authors = ["Al-aqua"]
+authors = ["Mohammad Al-aqua"]
 language = "en"
 src = "src"
 title = "Introduction to Artificial Intelligence"
+
 
 [output.html]
 additional-css = ["theme/css/watermark.css"]
