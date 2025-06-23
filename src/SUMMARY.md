@@ -7,3 +7,4 @@
 - [Chapter 3 - Advanced Prolog Concepts & Problem Solving](./chapter_3.md)
 - [Chapter 4 - Getting Started with Python](./chapter_4.md)
 - [Chapter 5 - Python Data Structures and Functions](./chapter_5.md)
+- [Chapter 6 - Object-Oriented Programming in Python](./chapter_6.md)
