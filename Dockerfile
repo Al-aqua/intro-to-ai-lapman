@@ -1,29 +1,25 @@
-# Dockerfile for mdbook with mdbook-katex
+# Stage 1: Build the mdbook site
 FROM rust:alpine AS builder
 
-# Install dependencies
-RUN apk add --no-cache \
-    musl-dev \
-    gcc \
-    && cargo install mdbook mdbook-katex
-
-# Set working directory
 WORKDIR /app
 
-# Copy book files
-COPY book.toml src theme /app/
+# Copy the project files
+COPY . .
 
-# Build the book
-RUN mdbook build
+# Install mdbook and build the book
+RUN apk add --no-cache build-base libc6-compat && \
+    cargo install mdbook && \
+    cargo install mdbook-katex && \
+    mdbook build
 
-# Use a lightweight image for runtime
-FROM alpine:latest
+# Stage 2: Serve the built site with Nginx
+FROM nginx:alpine
 
-# Copy built files from builder
-COPY --from=builder /app/book /app/book
+# Copy the built files from the builder stage
+COPY --from=builder /app/book /usr/share/nginx/html
 
-# Expose port for serving
-EXPOSE 3000
+# Expose port 80
+EXPOSE 80
 
-# Serve the book
-CMD ["mdbook", "serve", "--open", "--hostname", "0.0.0.0", "--port", "3000"]
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]
