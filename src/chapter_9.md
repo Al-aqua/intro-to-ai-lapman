@@ -154,9 +154,9 @@ Not all heuristics are created equal. The quality of a heuristic determines how 
 
 A heuristic \( h(n) \) is **admissible** if it never overestimates the true cost to reach the goal. In other words:
 
-\[ h(n) \leq h^\*(n) \]
+\[ h(n) \leq h^*(n) \]
 
-where \( h^\*(n) \) is the true optimal cost from state \( n \) to the goal.
+where \( h^*(n) \) is the true optimal cost from state \( n \) to the goal.
 
 ```python
 def check_admissibility_example():
