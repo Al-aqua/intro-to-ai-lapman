@@ -83,13 +83,20 @@ By the end of the course, you’ll have a strong foundation in AI programming an
   - 8-Puzzle Problem
   - Algorithm comparison on varying maze sizes
 
-**Chapter 9: Heuristic Search Techniques & Optimization**
+**Chapter 9: Introduction to Heuristic Functions and Basic Search Techniques**
 
 - Introduction to heuristic functions: what they are and why they are useful.
+- Common types of heuristics (e.g., Manhattan Distance, Euclidean Distance, Hamming Distance).
 - Properties of heuristics: Admissibility and Consistency.
 - Hill Climbing and its variations (e.g., Steepest Ascent, Stochastic).
-- Addressing local optima: Introduction to Simulated Annealing (optional, high-level).
-- Best-First Search.
-- A\* Search algorithm: combining cost and heuristic.
+- Best-First Search implementation and analysis.
+- Practical exercises: basic pathfinding problems and heuristic-guided search.
+
+**Chapter 10: Advanced Heuristic Search and Applications**
+
+- A\* Search algorithm: combining cost and heuristic for optimal solutions.
 - Python implementation of heuristic search techniques.
-- Practical exercises: advanced pathfinding (e.g., city shortest paths), optimization problems (e.g., 8-puzzle).
+- Practical exercises: advanced pathfinding (e.g., city shortest paths), optimization problems (e.g., 8-puzzle), and heuristic quality analysis.
+- Comprehensive algorithm comparison framework.
+- Key takeaways: trade-offs in heuristic search, real-world applications (e.g., GPS navigation, game AI).
+- Summary: Integrating heuristic search into AI systems.

@@ -7,3 +7,9 @@ title = "Introduction to Artificial Intelligence"
 
 [output.html]
 additional-css = ["theme/css/watermark.css"]
+
+[preprocessor.katex]
+after = ["links"]
+output = "html"
+block-delimiter = { left = "\\[", right = "\\]" }
+inline-delimiter = { left = "\\(", right = "\\)" }

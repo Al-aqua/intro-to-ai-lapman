@@ -10,4 +10,5 @@
 - [Chapter 6 - Object-Oriented Programming in Python](./chapter_6.md)
 - [Chapter 7 - Problem Formulation & Uninformed Search Basics](./chapter_7.md)
 - [Chapter 8 - Breadth-First Search & Search Algorithm Analysis](./chapter_8.md)
-- [Chapter 9 - Heuristic Search Techniques & Optimization](./chapter_9.md)
+- [Chapter 9 - Introduction to Heuristic Functions and Basic Search Techniques](./chapter_9.md)
+- [Chapter 10 - Advanced Heuristic Search and Applications](./chapter_10.md)
