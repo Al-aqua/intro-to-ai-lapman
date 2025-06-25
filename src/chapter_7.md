@@ -1,4 +1,4 @@
-# Chapter 7: Problem Formulation & Uninformed Search Basics
+# Lab 7: Problem Formulation & Uninformed Search Basics
 
 ## Learning Objectives
 
@@ -553,4 +553,4 @@ def create_varied_mazes():
 
 ---
 
-> **Next Chapter Preview**: In Chapter 8, we'll learn about breadth-first search (BFS) and search algorithm analysis.
+> **Next Lab Preview**: In Lab 8, we'll learn about breadth-first search (BFS) and search algorithm analysis.

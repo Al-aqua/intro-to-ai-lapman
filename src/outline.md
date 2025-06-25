@@ -10,9 +10,9 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 
 ## Course Outline
 
-### Part 1: Introduction to Prolog (Chapters 1–3)
+### Part 1: Introduction to Prolog (Labs 1–3)
 
-**Chapter 1: Getting Started with Prolog & Logic Programming**
+**Lab 1: Getting Started with Prolog & Logic Programming**
 
 - What is Prolog? Overview of logic programming and its role in AI (e.g., expert systems, knowledge representation).
 - Installing and setting up Prolog.
@@ -20,7 +20,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Facts, rules, and queries.
 - Simple examples: family relationships, basic reasoning puzzles.
 
-**Chapter 2: Prolog Fundamentals**
+**Lab 2: Prolog Fundamentals**
 
 - Variables, atoms, and terms.
 - Pattern matching and unification: the core of Prolog's execution.
@@ -29,7 +29,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Introduction to Arithmetic in Prolog.
 - Practical exercises: building a knowledge base for a small domain.
 
-**Chapter 3: Advanced Prolog Concepts & Problem Solving**
+**Lab 3: Advanced Prolog Concepts & Problem Solving**
 
 - Backtracking and implicit search in Prolog's execution model.
 - Controlling search: Introduction to the Cut operator (`!`).
@@ -37,9 +37,9 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Defining and using predicates for more complex logic.
 - Practical exercises: solving puzzles (e.g., N-Queens, Sudoku variants) and simple AI problems demonstrating logic and search.
 
-### Part 2: Introduction to Python (Chapters 4–6)
+### Part 2: Introduction to Python (Labs 4–6)
 
-**Chapter 4: Getting Started with Python**
+**Lab 4: Getting Started with Python**
 
 - What is Python? Overview of its role in AI.
 - Installing and setting up Python.
@@ -47,22 +47,22 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Input/output and basic control structures (if-else, loops).
 - Writing and running Python scripts.
 
-**Chapter 5: Python Data Structures and Functions**
+**Lab 5: Python Data Structures and Functions**
 
 - Lists, tuples, dictionaries, and sets.
 - Functions: defining, calling, and passing arguments.
 - Modules and libraries in Python.
 - Practical exercises: basic data manipulation and function writing.
 
-**Chapter 6: Object-Oriented Programming in Python**
+**Lab 6: Object-Oriented Programming in Python**
 
 - Classes and objects.
 - Methods, attributes, and inheritance.
 - Practical exercises: creating simple classes for AI-related tasks.
 
-### Part 3: AI Techniques in Python (Chapters 7–10)
+### Part 3: AI Techniques in Python (Labs 7–10)
 
-**Chapter 7: Problem Formulation & Uninformed Search Basics**
+**Lab 7: Problem Formulation & Uninformed Search Basics**
 
 - What is a search problem? States, actions, goal tests, path costs
 - Representing problems for search in Python
@@ -72,7 +72,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
   - Water Jug problem formulation (partial)
   - Simple maze variations to test DFS behavior
 
-**Chapter 8: Breadth-First Search & Search Algorithm Analysis**
+**Lab 8: Breadth-First Search & Search Algorithm Analysis**
 
 - Breadth-First Search (BFS) implementation
 - Completeness and optimality in search algorithms
@@ -83,7 +83,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
   - 8-Puzzle Problem
   - Algorithm comparison on varying maze sizes
 
-**Chapter 9: Introduction to Heuristic Functions and Basic Search Techniques**
+**Lab 9: Introduction to Heuristic Functions and Basic Search Techniques**
 
 - Introduction to heuristic functions: what they are and why they are useful.
 - Common types of heuristics (e.g., Manhattan Distance, Euclidean Distance, Hamming Distance).
@@ -92,7 +92,7 @@ By the end of the course, you’ll have a strong foundation in AI programming an
 - Best-First Search implementation and analysis.
 - Practical exercises: basic pathfinding problems and heuristic-guided search.
 
-**Chapter 10: Advanced Heuristic Search and Applications**
+**Lab 10: Advanced Heuristic Search and Applications**
 
 - A\* Search algorithm: combining cost and heuristic for optimal solutions.
 - Python implementation of heuristic search techniques.

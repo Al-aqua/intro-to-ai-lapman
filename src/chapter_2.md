@@ -1,4 +1,4 @@
-# Chapter 2: Prolog Fundamentals
+# Lab 2: Prolog Fundamentals
 
 ## Learning Objectives
 
@@ -321,4 +321,4 @@ ____________________________________________________________________________
 
 ---
 
-> **Next Chapter Preview:** In Chapter 3, we’ll explore advanced Prolog concepts like backtracking, the Cut operator, and solving more complex problems like puzzles and games.
+> **Next Lab Preview:** In Lab 3, we’ll explore advanced Prolog concepts like backtracking, the Cut operator, and solving more complex problems like puzzles and games.

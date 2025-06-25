@@ -1,4 +1,4 @@
-# Chapter 1: Getting Started with Prolog
+# Lab 1: Getting Started with Prolog
 
 ## Learning Objectives
 

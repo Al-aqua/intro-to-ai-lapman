@@ -1,4 +1,4 @@
-# Chapter 4: Getting Started with Python
+# Lab 4: Getting Started with Python
 
 ## Learning Objectives
 

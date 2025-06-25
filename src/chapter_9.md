@@ -1,4 +1,4 @@
-# Chapter 9: Introduction to Heuristic Functions and Basic Search Techniques
+# Lab 9: Introduction to Heuristic Functions and Basic Search Techniques
 
 ## Learning Objectives
 
@@ -15,7 +15,7 @@ By the end of this chapter, you will:
 ## Requirements
 
 - Python 3.8 or later
-- Understanding of Chapter 7 & 8 (uninformed search techniques)
+- Understanding of Lab 7 & 8 (uninformed search techniques)
 - Basic knowledge of priority queues and heaps
 - Familiarity with mathematical concepts like distance calculations
 
@@ -23,7 +23,7 @@ By the end of this chapter, you will:
 
 ## 9.1 Introduction to Heuristic Functions
 
-In Chapter 7, we learned about uninformed search techniques that explore the search space without any domain-specific knowledge. While these methods are guaranteed to find solutions (when they exist), they can be very inefficient for large problems.
+In Lab 7, we learned about uninformed search techniques that explore the search space without any domain-specific knowledge. While these methods are guaranteed to find solutions (when they exist), they can be very inefficient for large problems.
 
 **Heuristic search** uses domain-specific knowledge to guide the search toward promising areas of the search space, making it much more efficient.
 
@@ -302,7 +302,7 @@ def demonstrate_hill_climbing_problems():
         [0, 0, 0, 0, 0]
     ]
 
-    # Import our MazeProblem from Chapter 7
+    # Import our MazeProblem from Lab 7
     from chapter7 import MazeProblem  # Assuming you have this
 
     maze_problem = MazeProblem(problematic_maze, start=(0, 0), goal=(4, 4))

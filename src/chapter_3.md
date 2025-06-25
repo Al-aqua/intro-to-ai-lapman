@@ -1,4 +1,4 @@
-# Chapter 3: Advanced Prolog Concepts & Problem Solving
+# Lab 3: Advanced Prolog Concepts & Problem Solving
 
 ## Learning Objectives
 

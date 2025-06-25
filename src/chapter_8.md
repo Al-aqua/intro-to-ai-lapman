@@ -1,4 +1,4 @@
-# Chapter 8: Breadth-First Search & Search Algorithm Analysis
+# Lab 8: Breadth-First Search & Search Algorithm Analysis
 
 ## Learning Objectives
 
@@ -326,4 +326,4 @@ performance_comparison(sizes_to_test)
 
 ---
 
-> **Next Chapter Preview**: In Chapter 9, we'll learn about Constraint Satisfaction Problems (CSPs), where we'll learn to solve problems by finding assignments that satisfy multiple constraints simultaneously, using techniques like backtracking and constraint propagation.
+> **Next Lab Preview**: In Lab 9, we'll learn about Constraint Satisfaction Problems (CSPs), where we'll learn to solve problems by finding assignments that satisfy multiple constraints simultaneously, using techniques like backtracking and constraint propagation.

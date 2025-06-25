@@ -1,4 +1,4 @@
-# Chapter 5: Python Data Structures and Functions
+# Lab 5: Python Data Structures and Functions
 
 ## Learning Objectives
 
@@ -14,7 +14,7 @@ By the end of this chapter, you will:
 
 ## Requirements
 
-- Completion of Chapter 4 (Python basics)
+- Completion of Lab 4 (Python basics)
 - Python 3.8 or later installed
 - A text editor or IDE for writing Python code
 

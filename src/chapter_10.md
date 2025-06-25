@@ -1,4 +1,4 @@
-# Chapter 10: Advanced Heuristic Search and Applications
+# Lab 10: Advanced Heuristic Search and Applications
 
 ## Learning Objectives
 
@@ -15,7 +15,7 @@ By the end of this chapter, you will:
 ## Requirements
 
 - Python 3.8 or later
-- Understanding of Chapters 7, 8, and 9 (including uninformed search and basic heuristic techniques)
+- Understanding of Labs 7, 8, and 9 (including uninformed search and basic heuristic techniques)
 - Basic knowledge of priority queues, heaps, and time complexity analysis
 - Familiarity with mathematical concepts like distance calculations
 
